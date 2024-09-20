@@ -1,4 +1,6 @@
-import { user } from "@/app/util/db";
+// import { user } from "@/app/util/db";
+import { user } from "../../../util/db"
+
 import { NextResponse } from "next/server";
 
 export function GET(request,{params}){

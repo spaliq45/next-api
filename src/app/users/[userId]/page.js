@@ -6,7 +6,7 @@ async function getUser(id) {
 export default async function Page({params}){
     // console.log(params.userId)
     let user = await getUser(params.userId)
-    console.log("===>",user);
+    // console.log("===>",user);
     if (user=="N") {
         return (
             <div>
