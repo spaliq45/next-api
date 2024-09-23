@@ -26,8 +26,8 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-  ],
+    "**/*.tsx",
+    "src/app/navigation.js", "src/app/api/products/route.js"  ],
   "exclude": [
     "node_modules"
   ]
